@@ -1530,7 +1530,7 @@ public class MainPanel extends javax.swing.JFrame {
     private void jButton3DTilesJSONActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3DTilesJSONActionPerformed
         
         try {
-            String path3DTiles = jTextFieldPathToBuliderMap.getText()+"/3DTile";
+            String path3DTiles = jTextFieldPathToBuliderMap.getText()+"/3DTiles";
             Files.createDirectories(Paths.get(path3DTiles));
             
             String readMeString = "Generated Tile["+jSpinnerTileLngX.getValue()+","+jSpinnerTileLatY.getValue()+"]"+" with Scale: "+scale +
